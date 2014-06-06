@@ -21,6 +21,7 @@
 		141ABA5219420798000B55CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 141ABA3419420798000B55CD /* UIKit.framework */; };
 		141ABA5A19420798000B55CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 141ABA5819420798000B55CD /* InfoPlist.strings */; };
 		141ABA5C19420798000B55CD /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 141ABA5B19420798000B55CD /* Git_TestTests.m */; };
+		141ABA6719420B1B000B55CD /* BWTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 141ABA6619420B1B000B55CD /* BWTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		141ABA5719420798000B55CD /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		141ABA5919420798000B55CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		141ABA5B19420798000B55CD /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		141ABA6519420B1B000B55CD /* BWTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWTest.h; sourceTree = "<group>"; };
+		141ABA6619420B1B000B55CD /* BWTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				141ABA4219420798000B55CD /* Main.storyboard */,
 				141ABA4519420798000B55CD /* BWViewController.h */,
 				141ABA4619420798000B55CD /* BWViewController.m */,
+				141ABA6519420B1B000B55CD /* BWTest.h */,
+				141ABA6619420B1B000B55CD /* BWTest.m */,
 				141ABA4819420798000B55CD /* Images.xcassets */,
 				141ABA3719420798000B55CD /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				141ABA6719420B1B000B55CD /* BWTest.m in Sources */,
 				141ABA4719420798000B55CD /* BWViewController.m in Sources */,
 				141ABA3D19420798000B55CD /* main.m in Sources */,
 				141ABA4119420798000B55CD /* BWAppDelegate.m in Sources */,
